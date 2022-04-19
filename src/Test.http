@@ -1,0 +1,15 @@
+POST http://localhost:8080/api/expense
+Content-Type: application/json
+
+{
+  "id" : "200",
+  "expenseName" : "secondExpense",
+  "expenseCategory" : "GROCERIES",
+  "expenseAmount" : 650
+}
+
+###
+GET http://localhost:8080/api/expense
+Accept: application/json
+
+###
